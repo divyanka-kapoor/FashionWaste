@@ -84,7 +84,7 @@ ul{
 }
 
 #character2{
-  z-index: -1000;
+  z-index: -999;
 
   /* margin-right: 15%; */
   /* right:50px; */
