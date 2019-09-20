@@ -37,7 +37,7 @@ ul{
 }
 
 .icondiv1{
-  position: relative;
+  position: absolute;
   float:left;
   left: 60px;
   top: 60px;
@@ -55,21 +55,22 @@ ul{
 
 
 .female{
-  position: relative;
+  position: absolute;
   float:left;
 }
 
 .male{
-  position: relative ;
+  position: absolute;
   float:right;
-  right: 400px;
+  left: 1050px;
+  height: 700px;
 }
 
 
 .icondiv2{
-  position: relative;
+  position: absolute;
   float: right;
-  left: 350px;
+  left: 1650px;
   top: 50px;
 }
 
@@ -180,3 +181,21 @@ ul{
   z-index: -1;
   visibility:hidden;
 }
+/*
+.demo a {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+
+  font : normal 400 20px/1 'Josefin Sans', sans-serif;
+  letter-spacing: .1em;
+  text-decoration: none;
+  transition: opacity .3s;
+}
+.demo a:hover {
+  opacity: .5;
+} */
